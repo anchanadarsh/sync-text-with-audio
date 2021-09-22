@@ -8,14 +8,41 @@
   </head>
   <body>
     <div class="stwa_wrap">
+      <div class="stwa_text" data-total-characters="0">
+        <div class="stwa_text">
+          <p class="stwa_text_item">Big FM par aap sunn rahe hain Doctors Without Borders with Richa Aniruddha</p>
+          <p class="stwa_text_item">Doctors Without Borders… ek international, independent, medical humanitarian organization hai, jo ki peechle 50 saalon se health care ki pahunch se door, armed conflict, epidemics, pandemics, and natural disasters se affected logon ko emergency ilaaj deti hai. Doctors Without Borders mein aaj ki kahani hai - Ummeed Ki Roshni!</p>
+          <p class="stwa_text_item">Charon taraf ghabraahat! Hataasha!! Naummeedi!!! April 2021 me jab COVID ki dusri leher-numa andhera pure India me chha raha tha, us andhere me sabse zada Mumbai ke log aaye… Mahanagri mein covid-19 se peedit logon ki sankhaya lagaataar badh rahi thi… (ambulance sound) hospitals mein jagah nahi bachi thi… door door tak kisi ummeed ki roshni nazar nahi aa rahi thi… lagaataar beemaar hote logon ko dekhte hue… sarakaar ne ek temporary COVID-19 hospital banaya… aur dekhte hi dekhte, wahan bhi rozana 250 se 300 Covid-19 ke mareej aane lage… 28 wards wale us temporary hospital mein lagbhag 1000 bed the, lekin ek bhi khaali nahi… Par ye daur jitna mareezon ke liye mushkil tha, usse se kai zada mushkil hospitals ke andar doctors aur nurses ke liye tha…. Mumbai ke umas bhare vatavaran mein ghanton PPE kit pahan kar… mareejon ki dekhbhaal karte hue, Doctors aur nurses ka dam bhi ghutne lagta… zaroorat ke mutaabik doctors aur nurses bhi uplabdh nahin the…. COVID ward me kaam karke bitaya har ek ghanta, un aam dino se kai zada mushkil aur andar se tod dene wala tha,.. Is kabhi na khatm hone zarurat ko pura karne ke liye, kuchh fresh graduate nurses ko appoint kiya gaya…</p>
+          <p class="stwa_text_item">Magar un nurses ke saamne ek bohot badi samasya thi… Kya thi wo samasya aur kaise kiya us samasya ka samaadhaan? Jaanenge aage....</p>
+          <p class="stwa_text_item">Aap sun rahe hain Doctors Without Border with Richa Aniruddha! Aapki ek chhoti si madad, kisi zarooratmand ki zindagi bacha sakti hai.</p>
+        </div>
+      </div>
+      <div class="stwa_audio">
+        <audio controls>
+          <source
+            src="STORY-01-MSF-INDIA-UMMEED-KI-ROSHNI-08-SEPT-2021.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+      </div>
+    </div>
+
+    <div class="stwa_wrap">
       <div class="stwa_text">
-        <p class="stwa_text_item">Big FM par aap sunn rahe hain Doctors Without Borders with Richa Aniruddha </p>
+        <p class="stwa_text_item">Big FM par aap sunn rahe hain Doctors Without Borders with Richa Aniruddha</p>
         <p class="stwa_text_item">Doctors Without Borders… ek international, independent, medical humanitarian organization hai, jo ki peechle 50 saalon se health care ki pahunch se door, armed conflict, epidemics, pandemics, and natural disasters se affected logon ko emergency ilaaj deti hai. Doctors Without Borders mein aaj ki kahani hai - Ummeed Ki Roshni!</p>
         <p class="stwa_text_item">Charon taraf ghabraahat! Hataasha!! Naummeedi!!! April 2021 me jab COVID ki dusri leher-numa andhera pure India me chha raha tha, us andhere me sabse zada Mumbai ke log aaye… Mahanagri mein covid-19 se peedit logon ki sankhaya lagaataar badh rahi thi… (ambulance sound) hospitals mein jagah nahi bachi thi… door door tak kisi ummeed ki roshni nazar nahi aa rahi thi… lagaataar beemaar hote logon ko dekhte hue… sarakaar ne ek temporary COVID-19 hospital banaya… aur dekhte hi dekhte, wahan bhi rozana 250 se 300 Covid-19 ke mareej aane lage… 28 wards wale us temporary hospital mein lagbhag 1000 bed the, lekin ek bhi khaali nahi… Par ye daur jitna mareezon ke liye mushkil tha, usse se kai zada mushkil hospitals ke andar doctors aur nurses ke liye tha…. Mumbai ke umas bhare vatavaran mein ghanton PPE kit pahan kar… mareejon ki dekhbhaal karte hue, Doctors aur nurses ka dam bhi ghutne lagta… zaroorat ke mutaabik doctors aur nurses bhi uplabdh nahin the…. COVID ward me kaam karke bitaya har ek ghanta, un aam dino se kai zada mushkil aur andar se tod dene wala tha,.. Is kabhi na khatm hone zarurat ko pura karne ke liye, kuchh fresh graduate nurses ko appoint kiya gaya…</p>
         <p class="stwa_text_item">Magar un nurses ke saamne ek bohot badi samasya thi… Kya thi wo samasya aur kaise kiya us samasya ka samaadhaan? Jaanenge aage....</p>
         <p class="stwa_text_item">Aap sun rahe hain Doctors Without Border with Richa Aniruddha! Aapki ek chhoti si madad, kisi zarooratmand ki zindagi bacha sakti hai.</p>
       </div>
-      <div class="stwa_audio"></div>
+      <div class="stwa_audio">
+        <audio controls>
+          <source
+            src="STORY-01-MSF-INDIA-UMMEED-KI-ROSHNI-08-SEPT-2021.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+      </div>
     </div>
 
     <script
@@ -25,21 +52,6 @@
       referrerpolicy="no-referrer"
     ></script>
 
-    <script>
-      $(document).ready(function () {
-        var getAutioTextArea = $(".stwa_wrap .stwa_text");
-        getAutioTextArea.find(".stwa_text_item").each(function () {
-          var getEachParaL = $(this).text().split('');
-          $(this).text('');
-          console.log(getEachParaL);
-          for (var i = 0; i < getEachParaL; i++) {
-            $(this).append('<span>'+ getEachParaL[i] +'</span>')
-            // console.log($(this).text()[i]);
-            // .wrap("<span></span>");
-            // getEachParaL
-          }
-        });
-      });
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
